@@ -1,0 +1,63 @@
+/* Hello World 网站样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", Arial, sans-serif;
+}
+
+/* 中间的卡片容器 */
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 48px 56px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  max-width: 560px;
+  width: 90%;
+}
+
+/* 大标题 */
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #4a3f8f;
+  margin-bottom: 16px;
+}
+
+/* 介绍文字 */
+.intro {
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+/* 高亮的名字 */
+.intro strong {
+  color: #e74c3c;
+  font-weight: 700;
+}
+
+/* 时间标签 */
+.time-label {
+  font-size: 14px;
+  color: #888888;
+  margin-bottom: 8px;
+}
+
+/* 服务器时间 */
+.server-time {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2c3e50;
+  font-variant-numeric: tabular-nums;
+}
