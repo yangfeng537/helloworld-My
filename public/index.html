@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World!</title>
-  <link rel="stylesheet" href="/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World 网站</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <main class="card">
-    <h1 class="title">Hello World!</h1>
-    <p class="intro">我是【你的名字】，我的第一个AI开发的网站</p>
+  <div class="card">
+    <h1>Hello World！我是【你的名字】，我的第一个AI开发的网站</h1>
+
     <div class="time-box">
-      <div class="label">当前服务器时间</div>
-      <div class="server-time" id="server-time">加载中…</div>
+      <div class="label">🕐 当前服务器时间</div>
+      <div class="value" id="serverTime">加载中…</div>
     </div>
-    <p class="start-time" id="start-time">服务器启动时间：加载中…</p>
-  </main>
+
+    <div class="footer">由 Node.js 提供支持 · 时间每 5 秒自动刷新</div>
+  </div>
+
   <script src="/app.js"></script>
 </body>
 </html>
